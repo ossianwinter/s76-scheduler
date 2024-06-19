@@ -1,5 +1,5 @@
 # s76-scheduler
-Tiny GNOME plugin that updates process priorities using the [System76 Scheduler](https://github.com/pop-os/system76-scheduler).
+Tiny GNOME extension that updates process priorities using the [System76 Scheduler](https://github.com/pop-os/system76-scheduler).
 
 ## Installation
 ### Prerequisites
