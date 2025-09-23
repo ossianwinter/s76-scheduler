@@ -10,7 +10,11 @@ Ensure that the `com.system76.Scheduler` service is enabled:
 sudo systemctl enable --now com.system76.Scheduler.service
 ```
 
-### From source
+### From source (recommended)
 ```bash
 git clone https://github.com/ossianwinter/s76-scheduler ~/.local/share/gnome-shell/extensions/s76-scheduler@winter.vg
 ```
+
+### Other installation methods
+- `gnome-shell-extension-s76-scheduler` in the [Arch Linux User Repository](https://aur.archlinux.org/packages/gnome-shell-extension-s76-scheduler)
+- `gnome-shell-extension-s76-scheduler` in the [Arch Linux Chinese Community Repository](https://github.com/archlinuxcn/repo/tree/master/archlinuxcn/gnome-shell-extension-s76-scheduler) (maintained by [@everyx](https://github.com/everyx))
