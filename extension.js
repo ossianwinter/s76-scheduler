@@ -18,7 +18,7 @@ export default class System76SchedulerExtension extends Extension {
   enable() {
     this._foreground = 0;
 
-    this.handler = global.display.connect('notify::focus-window', () => {
+    this._handler = global.display.connect('notify::focus-window', () => {
       const meta_window = global.display.get_focus_window();
       if (!meta_window) {
         return;
